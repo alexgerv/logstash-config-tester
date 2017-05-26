@@ -1,13 +1,10 @@
 # logstash-config-tester
-____
 
 ## Description
-This small projects allows testing of logstash filters configuration. 
-
-
+Quickly bootstrap a docker container to test your logstash filters
 
 ## Configuration
-The configuration file is located at `/pipeline/configuration.conf`. It will be reloaded automatically in the logstash instance, no need to restart the containers.
+The configuration file is located at `/pipeline/configuration.conf`.
 
 The pipeline flow is:
 > input > filters > output 
