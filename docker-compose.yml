@@ -1,7 +1,7 @@
 version: '3'
 services:
   logstash:
-    image: docker.elastic.co/logstash/logstash:5.4.0
+    image: docker.elastic.co/logstash/logstash:7.12.0
     volumes:
       - ./config/logstash.yml:/usr/share/logstash/config/logstash.yml
       - ./pipeline:/usr/share/logstash/pipeline
